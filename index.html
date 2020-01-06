@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="basic-card.css">
+        <link rel="stylesheet" href="event-card.css">
+        <title>Religious Naturalist</title>
+        <link rel="icon" type="image/png" href="./assets/icons/logo2.png">
+    </head>
+    <body>
+
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand col-sm-12 col-md-6" href="#">
+                <div class="row">
+                  <div class="col-md-5 col-sm-12 navbar-logo">
+                      <img src="./assets/icons/logo.png" class="img-fluid mx-auto d-block" alt="Responsive image">                        
+                  </div>
+                  <div class="col-md-7 col-sm-12 col-xs-12" style="padding-top: 2vh !important;">
+                    <h3 class="navbar-title">Religious Naturalist</h3>
+                    <h6 class="navbar-sub-title">Encouraging Naturalist Awareness</h6>
+                  </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="event.html">Event</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <!-- NavBar -->
+        
+        <!-- Slider -->
+        <div class="slider-container">
+            <div class="slides-container">
+              <img class="slides" src="./assets/images/home-slide-nature.jpg">
+              <div class="slides-quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore minus quaerat totam quas impedit quam dolores recusandae laudantium! Sunt nam placeat inventore ipsum fuga vel animi voluptatibus aut dicta error.</p>
+              </div>
+            </div>
+            <div class="slides-container">
+              <img class="slides" src="./assets/images/home-slide-peace.png">
+              <div class="slides-quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem facilis laudantium illo incidunt eligendi, vero suscipit consectetur dolore. Iure quia placeat asperiores alias voluptatum blanditiis consequatur error, nulla quos?</p>
+              </div>
+            </div>
+            <div class="slides-container">
+              <img class="slides" src="./assets/images/home-slide-sky.jpg">
+              <div class="slides-quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quisquam? Adipisci quod amet quisquam aliquid. Sint culpa numquam impedit ratione iusto rerum provident deleniti, amet temporibus, esse architecto minima corrupti!</p>
+              </div>
+            </div>
+            <div class="slides-container">
+              <img class="slides" src="./assets/images/home-slide-space.jpg">
+              <div class="slides-quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur soluta ullam, voluptatem adipisci, a culpa dolorum nulla necessitatibus maxime molestias labore, perferendis illum iusto architecto accusantium sapiente. Nostrum, ea fugiat.</p>
+              </div>
+            </div>
+
+            <button class="slider-left-button" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slider-right-button" onclick="plusDivs(1)">&#10095;</button>
+            
+            <div class="bottom-indicator-container" style="width:100%">
+              <span class="indicator-button indicator-button-selected" onclick="currentDiv(1)"></span>
+              <span class="indicator-button indicator-button-selected" onclick="currentDiv(2)"></span>
+              <span class="indicator-button indicator-button-selected" onclick="currentDiv(3)"></span>
+              <span class="indicator-button indicator-button-selected" onclick="currentDiv(3)"></span>
+            </div>
+        </div>
+
+        <!-- Home Content -->
+        <div class="home-container">
+          <div class="intro">
+            <h2>Welcome</h2>
+            <p>The Religious Naturalist was formed to bring together people from around the world who see themselves as religious naturalists and to introduce this concept to those who are not familiar with it. This website provides a point of entry and a resource for exploring the religious-naturalist orientation and for sharing ideas with other members.</p>
+          </div>
+          <div class="cards-list">
+            <a class="card 1" href="books.html">
+              <div class="card_image">
+                <img class="card-img-top-left" src="./assets/books/book1.jpg" />
+                <img class="card-img-top-mid" src="./assets/books/book2.jpg" />
+                <img class="card-img-top-right" src="./assets/books/book3.jpg" />
+                <img class="card-img-bottom-left" src="./assets/books/book4.jpg" />
+                <img class="card-img-bottom-mid" src="./assets/books/book5.jpg" />
+                <img class="card-img-bottom-right" src="./assets/books/book6.jpg" />
+              </div>
+                <div class="card_title title-white">
+                  <p>Books</p>
+              </div>
+            </a>
+              <a class="card 2" href="gallery.html">
+              <div class="card_image">
+                <img class="card-img-top-left" src="https://source.unsplash.com/random/?tech,care" />
+                <img class="card-img-top-mid" src="https://source.unsplash.com/random/?tech,past" />
+                <img class="card-img-top-right" src="https://source.unsplash.com/random/?tech,crew" />
+                <img class="card-img-bottom-left" src="./assets/books/book4.jpg" />
+                <img class="card-img-bottom-mid" src="./assets/books/book5.jpg" />
+                <img class="card-img-bottom-right" src="./assets/books/book6.jpg" />
+                </div>
+              <div class="card_title title-white">
+                <p>Gallery</p>
+              </div>
+            </a>
+            <div class="card 3">
+              <div class="card_image">
+                <img class="card-img-top-left" src="./assets/books/book1.jpg" />
+                <img class="card-img-top-mid" src="./assets/books/book2.jpg" />
+                <img class="card-img-top-right" src="./assets/books/book3.jpg" />
+                <img class="card-img-bottom-left" src="./assets/books/book4.jpg" />
+                <img class="card-img-bottom-mid" src="./assets/books/book5.jpg" />
+                <img class="card-img-bottom-right" src="./assets/books/book6.jpg" />
+                </div>
+              <div class="card_title title-white">
+                <p>Event</p>
+              </div>
+            </div>
+            </div>
+          <div class="event-container">
+            <div class="info">
+              <h1>News</h1>
+              <span>Our latest news from community members around the World!</span>
+            </div>
+            <div class="column">
+              <!-- Post-->
+              <div class="post-module post-module-earth">
+                <div class="thumbnail">
+                  <div class="date">
+                    <div class="day">03</div>
+                    <div class="month">Jan</div>
+                  </div><img src="./assets/news/120619_CG_greenland-trip_feat-330x186.jpg"/>
+                </div>
+                <div class="post-content">
+                  <div class="category">Earth</div>
+                  <h1 class="title">Debate over signs of early life inspires dueling teams to go to Greenland — together</h1>
+                  <h2 class="sub_title">By Carolyn Gramling</h2>
+                  <p class="description">An ongoing debate about whether strange squiggles in Greenland rocks are signs of ancient life saw a détente in August, when scientists on both sides visited the site to talk it out.</p>
+                  <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <!-- Post-->
+              <div class="post-module post-module-space">
+                <div class="thumbnail">
+                  <div class="date">
+                    <div class="day">03</div>
+                    <div class="month">Jan</div>
+                  </div><img src="./assets/news/121719_CC_pulsar_feat-1028x579.jpg"/>
+                </div>
+                <div class="post-content">
+                  <div class="category">Space</div>
+                  <h1 class="title">Debate over signs of early life inspires dueling teams to go to Greenland — together</h1>
+                  <h2 class="sub_title">NASA'S GODDARD SPACE FLIGHT CENTER</h2>
+                  <p class="description">The first maps of a pulsar reveal bright spots in its southern hemisphere where high-speed atomic particles, guided by magnetic fields, slam into the star. These illustrations show two possible configurations of the spots.</p>
+                  <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo" style="box-shadow: rgba(0, 0, 0, 0.5) 2px -2px 2px;">
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#"> Chrisana Dharmawan</a>
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="./bootstrap/js/bootstrap.js"></script>
+        <!-- Slider -->
+        <script src="./js/slider.js"></script>
+        <script src="./js/card.js"></script>
+    </body>
+</html>
